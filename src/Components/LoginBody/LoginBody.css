@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 #login-body {
@@ -10,7 +13,135 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(223, 222, 222);
 }
+
 #login-logo {
+    width: 20vw;
+}
+
+#login-form {
+    background-color: white;
+    width: 30vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#logo-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 30%;
+}
+
+#input-container {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#container-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25%;
+    width: 100%;
+    gap: 4px;
+    
+}
+
+#container-entre-com {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    gap: 12px;
+
+}
+
+#container-entre-com hr {
+    flex: 1;
+}
+
+#container-entre-com p {
+    font-size: 14px;
+}
+
+#logo-container p {
+    font-size: 18px;
+    color: gray;
+    font-weight: 400;
+}
+
+#input-container input {
+    width: 25vw;
+    height: 7vh;
+    border-radius: 5px;
+    border: 2px solid rgb(190, 186, 186);
+    outline: none;
+    padding: 5px;
+    background-color: rgb(223, 222, 222);
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+
+}
+
+#input-container a {
+    display: flex;
+    align-self: flex-end;
+    text-decoration: none;
+    color: rgb(136, 135, 135);
+    font-size: 14px;
+    margin-right: 2.5vw;
+}
+
+#input-container  button {
+    width: 25vw;
+    height: 7vh;
+    background-color: #207aef ;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin-top: 2vh;
+}
+
+#container-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#container-button button {
     width: 10vw;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 8px;
+    border: 1px solid rgb(190, 186, 186);
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+#container-cadastre-se p {
+    font-size: 14px;
+    
+}
+#container-cadastre-se {
+   margin-top: 2vh;
+}
+#container-cadastre-se a {
+    text-decoration: none;
+    color: #207aef;
 }
